@@ -1,5 +1,5 @@
 %define		fversion	%(echo %{version} |tr r -)
-%define         modulename	acepack
+%define		modulename	acepack
 Summary:	ace() and avas() for selecting regression transformations
 Summary(pl):	ace() i avas() do wyboru regresji transformacji
 Name:		R-cran-%{modulename}
