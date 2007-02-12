@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	acepack
 Summary:	ace() and avas() for selecting regression transformations
-Summary(pl):	ace() i avas() do wyboru przekszta≥ceÒ regresji
+Summary(pl.UTF-8):   ace() i avas() do wyboru przekszta≈Çce≈Ñ regresji
 Name:		R-cran-%{modulename}
 Version:	1.3r2.1
 Release:	2
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ACE and AVAS methods for choosing regression transformations.
 
-%description -l pl
-Metody ACE i AVAS do wyboru przekszta≥ceÒ regresji.
+%description -l pl.UTF-8
+Metody ACE i AVAS do wyboru przekszta≈Çce≈Ñ regresji.
 
 %prep
 %setup -q -c
