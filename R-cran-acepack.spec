@@ -4,7 +4,7 @@ Summary:	ace() and avas() for selecting regression transformations
 Summary(pl.UTF-8):	ace() i avas() do wyboru przekształceń regresji
 Name:		R-cran-%{modulename}
 Version:	1.3r3.3
-Release:	2
+Release:	3
 License:	avas is public domain, ace is on Statlib
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
